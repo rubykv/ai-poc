@@ -8,7 +8,7 @@ response = client.chat.completions.create(
     messages=[
 
         {"role": "system", "content": "Helping user start with python"},
-        {"role": "system", "content": "what does getenv do"}
+        {"role": "user", "content": "what does getenv do"}
     ],
     temperature=0.5,
     max_tokens=1024
